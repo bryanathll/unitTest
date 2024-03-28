@@ -1,7 +1,7 @@
 {
-  "name": "unit-test",
+  "name": "logging",
   "version": "1.0.0",
-  "description": "learn unit test",
+  "description": "learn logging",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "author": "Brian Nathanel",
   "license": "ISC",
+  "dependencies": {
+    "winston": "3.13.0"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.24.3",
     "babel-jest": "^29.7.0",
